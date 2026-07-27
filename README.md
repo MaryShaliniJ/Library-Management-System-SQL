@@ -202,6 +202,4 @@ Possible future enhancements include:
 
 M.E. Computer Science and Engineering (Big Data Analytics)
 
-Aspiring Data Analyst | SQL | Python | Power BI | Machine Learning
-
 ---
