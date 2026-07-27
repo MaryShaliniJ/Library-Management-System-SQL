@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# MySQL Workbench backup files
+*.mwb.bak
+
+# SQL backup files
+*.sql.bak
+*.bak
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
