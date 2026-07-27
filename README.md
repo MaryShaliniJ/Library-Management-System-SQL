@@ -66,6 +66,7 @@ Library-Management-System-SQL/
 │
 ├── README.md
 ├── LICENSE
+├── .gitignore
 ├── database_diagram.png
 ├── schema.sql
 ├── sample_data.sql
