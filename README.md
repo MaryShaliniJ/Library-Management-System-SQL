@@ -139,7 +139,7 @@ The database consists of four related tables:
 The database schema is shown below.
 
 
-```markdown
+```
 ![Database Diagram](database_diagram.png)
 ```
 
