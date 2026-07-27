@@ -1,118 +1,121 @@
-\# 📚 Library Management System using MySQL
+# 📚 Library Management System using MySQL
 
+A comprehensive relational database project developed using **MySQL** to manage library operations such as book inventory, author information, member records, and borrowing transactions.
 
+This project demonstrates database design, relational modeling, SQL programming, business reporting, and advanced SQL concepts including **CRUD Operations, JOINs, Aggregate Functions, Views, Stored Procedures, Window Functions, and Subqueries**.
 
-A relational database project developed using \*\*MySQL\*\* to manage library operations such as maintaining book records, member information, authors, and borrowing transactions. The project demonstrates database design, SQL querying, reporting, and advanced database programming concepts.
+---
 
+## 📌 Table of Contents
 
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Database Schema](#-database-schema)
+- [SQL Skills Demonstrated](#-sql-skills-demonstrated)
+- [Project Screenshots](#-project-screenshots)
+- [How to Run](#-how-to-run)
+- [Project Highlights](#-project-highlights)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
 
-\---
+---
 
+# 📖 Project Overview
 
+The Library Management System simulates the operations of a real-world library using a relational database.
 
-\## 📖 Project Overview
+It maintains information about:
 
+- Authors
+- Books
+- Members
+- Borrow Records
 
+The database is designed using normalization principles and relationships enforced through **Primary Keys** and **Foreign Keys**.
 
-The Library Management System is designed to simulate the operations of a real-world library. It stores information about books, authors, library members, and borrowing records while maintaining relationships between tables using primary and foreign keys.
+---
 
+# ✨ Features
 
+- 📚 Manage books and authors
+- 👤 Maintain library member records
+- 🔄 Track borrowing transactions
+- ➕ Perform CRUD operations
+- 🔗 Execute JOIN queries
+- 📊 Generate analytical reports
+- 📈 Apply Window Functions
+- 🛠 Create Views and Stored Procedures
 
-This project demonstrates both fundamental and advanced SQL concepts that are commonly used in database development and data analysis.
+---
 
+# 🛠 Technologies Used
 
+- MySQL 8.0
+- MySQL Workbench
+- SQL
+- Relational Database Design
 
-\---
+---
 
+# 📂 Project Structure
 
-
-\## 🎯 Objectives
-
-
-
-\- Design a normalized relational database.
-
-\- Implement relationships using Primary Keys and Foreign Keys.
-
-\- Perform CRUD operations.
-
-\- Generate business reports using SQL.
-
-\- Demonstrate advanced SQL concepts such as Views, Stored Procedures, Subqueries, CASE statements, and Window Functions.
-
-
-
-\---
-
-
-
-\## 🛠 Technologies Used
-
-
-
-\- MySQL 8.0
-
-\- MySQL Workbench
-
-\- SQL
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
-
-```
-
+```text
 Library-Management-System-SQL/
-
 │
-
 ├── README.md
-
 ├── LICENSE
-
-├── database\_diagram.png
-
+├── database_diagram.png
 ├── schema.sql
-
-├── sample\_data.sql
-
-├── crud\_operations.sql
-
-├── join\_queries.sql
-
-├── aggregate\_reports.sql
-
-├── advanced\_queries.sql
-
+├── sample_data.sql
+├── crud_operations.sql
+├── join_queries.sql
+├── aggregate_reports.sql
+├── advanced_queries.sql
 ├── views.sql
-
-├── stored\_procedures.sql
-
+├── stored_procedures.sql
 └── screenshots/
-
+    ├── database_tables.png
+    ├── join_queries.png
+    ├── aggregate_reports.png
+    ├── advanced_queries.png
+    ├── view_output.png
+    └── stored_procedure_output.png
 ```
 
 ---
 
-# 🚀 SQL Concepts Demonstrated
+# 🗄 Database Schema
 
-This project demonstrates the following SQL concepts:
+The database consists of four related tables.
+
+| Table | Description |
+|--------|-------------|
+| Authors | Stores author information |
+| Books | Stores book details |
+| Members | Stores library members |
+| BorrowRecords | Stores borrowing transactions |
+
+---
+
+# 🔗 Entity Relationship Diagram
+
+![Database Diagram](database_diagram.png)
+
+---
+
+# 📊 SQL Skills Demonstrated
 
 - Database Creation
 - Table Creation
 - Primary Keys
 - Foreign Keys
-- CRUD Operations (Create, Read, Update, Delete)
+- CRUD Operations
 - INNER JOIN
-- Aggregate Functions (`COUNT`, `AVG`)
-- `GROUP BY`
-- `ORDER BY`
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
 - Subqueries
 - CASE Statements
 - Window Functions (`DENSE_RANK`)
@@ -121,77 +124,75 @@ This project demonstrates the following SQL concepts:
 
 ---
 
-# 🗄 Database Schema
-
-The database consists of four related tables:
-
-| Table | Description |
-|-------|-------------|
-| Authors | Stores author information |
-| Books | Stores book details including category, price, and copies |
-| Members | Stores library member information |
-| BorrowRecords | Stores book borrowing transactions |
-
----
-
-# 🔗 Entity Relationship Diagram (ER Diagram)
-
-The database schema is shown below.
-
-
-![Database Diagram](database_diagram.png)
-
-
----
-
-# 📊 Sample Business Queries
-
-This project includes several business-oriented SQL queries, such as:
-
-- Display books with their respective authors.
-- Find members who borrowed books written by Dan Brown.
-- Count the total number of books by each author.
-- Calculate the average price of books by category.
-- Identify the most active library members.
-- Find books priced above the average book price.
-- Rank books by price using Window Functions.
-
----
-
 # 📸 Project Screenshots
 
-The `screenshots` folder contains images demonstrating the project, including:
+## Database Tables
 
-- Database tables
-- CRUD operations
-- JOIN queries
-- Aggregate reports
-- Advanced SQL queries
-- Views
-- Stored Procedures
+![Database Tables](screenshots/database_tables.png)
 
 ---
 
-# ▶️ How to Run the Project
+## JOIN Queries
 
-1. Open MySQL Workbench.
-2. Execute `schema.sql` to create the database and tables.
-3. Execute `sample_data.sql` to insert sample records.
-4. Run the remaining SQL files to explore CRUD operations, reports, views, and stored procedures.
-5. View the Entity Relationship Diagram (`database_diagram.png`) for the database structure.
+![JOIN Queries](screenshots/join_queries.png)
 
 ---
 
-# 🔮 Future Improvements
+## Aggregate Reports
 
-Possible future enhancements include:
+![Aggregate Reports](screenshots/aggregate_reports.png)
 
-- Book reservation system
-- Fine calculation for overdue books
-- User authentication
-- Library staff management
-- Dashboard integration with Power BI or Tableau
-- Python integration for data analysis
+---
+
+## Advanced SQL Queries
+
+![Advanced Queries](screenshots/advanced_queries.png)
+
+---
+
+## View Output
+
+![View Output](screenshots/view_output.png)
+
+---
+
+## Stored Procedure Output
+
+![Stored Procedure](screenshots/stored_procedure_output.png)
+
+---
+
+# ▶️ How to Run
+
+1. Clone or download the repository.
+2. Open MySQL Workbench.
+3. Execute `schema.sql`.
+4. Execute `sample_data.sql`.
+5. Run the remaining SQL files to explore CRUD operations, JOINs, reports, Views, and Stored Procedures.
+
+---
+
+# 📈 Project Highlights
+
+- Designed a normalized relational database
+- Implemented Primary and Foreign Key relationships
+- Developed CRUD operations
+- Created analytical SQL reports
+- Used Views and Stored Procedures
+- Applied Window Functions for ranking analysis
+- Documented the database using an ER Diagram
+- Organized SQL scripts into separate modules for better maintainability
+
+---
+
+# 🚀 Future Enhancements
+
+- Book Reservation System
+- Fine Calculation System
+- User Authentication
+- Library Staff Management
+- Dashboard using Power BI
+- Python Integration for Data Analysis
 
 ---
 
