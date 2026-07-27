@@ -140,7 +140,7 @@ The database schema is shown below.
 
 
 ```
-![Database Diagram](database_diagram.png)
+![Database_Diagram](database_diagram.png)
 ```
 
 ---
