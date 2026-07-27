@@ -139,9 +139,8 @@ The database consists of four related tables:
 The database schema is shown below.
 
 
-```
-![Database_Diagram](database_diagram.png)
-```
+![Database Diagram](database_diagram.png)
+
 
 ---
 
